@@ -1,8 +1,6 @@
 # Getting Started with Create React App
 
-"homepage":"https://Rommelpalma123.github.io/client",
-"predeploy":"npm run build",
-"deploy":"gh-pages -d build",
+
   
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
