@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) 
+{
+    .parrafo{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .carta{
+        width: 350px;
+    }   
+}

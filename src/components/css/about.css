@@ -1,0 +1,21 @@
+.card:hover{
+    box-shadow: inset 0px 0px 3px .6px rgb(79, 64, 64);
+}
+
+/* hover de los iconos de descripcion */
+.fab:hover
+{
+    color: aqua;
+}
+
+.parrafo:hover
+{
+    color: rgba(30, 156, 154, 0.4);
+    cursor: pointer;
+    border-bottom: 1px solid rgb(87, 163, 87);
+}
+
+.nav-item:hover
+{
+    border-bottom: 1px solid rgb(87, 163, 87);
+}
