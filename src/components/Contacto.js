@@ -19,9 +19,9 @@ function Contacto ()
             idcontacto: uniquid()
         }
         console.log(usuario);
-        axios.post('http://localhost:5000/api/contacto', usuario)
-        .then(res => { alert('debe llenar todos los campos', res.data)})
-        .catch(err => { alert('llena todos los campos', err)})
+        axios.post('https://portafolio-5yko.onrender.com/api/contacto', usuario)
+        .then(res => { alert(res.data)})
+        .catch(err => { alert('no se puede enviar el formuario')});
     }
     return(
         <div>   
