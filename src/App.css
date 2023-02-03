@@ -3,21 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-html{
-    height: 100%;
-}
-
-body {
-    min-height: 100%;
-}
-
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 3px;
     background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #ffffff;
+    background-color: #cb1010;
     border-radius: 5px;
 }

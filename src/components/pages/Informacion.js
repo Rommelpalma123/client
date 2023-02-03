@@ -1,5 +1,5 @@
 import imagen from './imgs/logo1922.png';
-import '../css/movil.css'
+import '../css/footer.css'
 
 
 function Informacion() 
@@ -8,10 +8,10 @@ function Informacion()
     <div>
         <div className="container overflow-hidden mt-5">
             <div className="row">
-                <div className="col text-center">
-                    <img src={imagen} height='200' width='200'className='rounded-circle' alt='imagen de perfil'/>
+                <div className="text-center">
+                    <img src={imagen} className='rounded-circle imagen' alt='imagen de perfil'/>
                 </div>
-                <div className="col">
+                <div className="col mt-5">
                         <h3><b>Hola a todos soy Rommel Palma</b></h3>
                         <p>
                             Soy desarrollador de software desde hace un año,

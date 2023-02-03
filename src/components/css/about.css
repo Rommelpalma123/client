@@ -3,10 +3,7 @@
 }
 
 /* hover de los iconos de descripcion */
-.fab:hover
-{
-    color: aqua;
-}
+
 
 .parrafo:hover
 {
@@ -19,3 +16,4 @@
 {
     border-bottom: 1px solid rgb(87, 163, 87);
 }
+

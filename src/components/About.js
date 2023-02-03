@@ -16,7 +16,7 @@ const About = () =>
     return(
         <div className="container text-center py-5">
         <h2 className="py-4"><b>Conjunto de habilidades</b></h2>
-            <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+            <div className="row row-cols-1 row-cols-lg-5 g-2">
                 <div className="col">
                     <div className="card sombra" style={{ cursor:"pointer"}}>
                     <h5 className="card-title">JavaScript</h5>

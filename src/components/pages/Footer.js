@@ -1,4 +1,4 @@
-import '../css/about.css'
+import '../css/footer.css'
 import '../css/movil.css'
 
 
@@ -20,16 +20,16 @@ const Footer = () => {
                             <h4>Puedes Encontrarme en:</h4>
                             <ul className="list-unstyled text-decoration-none">
                         
-                                <li><a className="text-decoration-none text-white" 
+                                <li><a className="texto text-decoration-none" 
                                 href="https://www.facebook.com/profile.php?id=100010333634907" 
-                                target="_blank" rel="noreferrer">&nbsp;
+                                target="_blank" rel="noreferrer">
                                 <i class="fab fa-facebook-f"></i>&nbsp; Facebook</a></li>
 
-                                <li><a className="text-decoration-none text-white" 
+                                <li><a className="texto text-decoration-none" 
                                 href="https://www.linkedin.com/in/rommel-palma-7aa5b1223/" 
                                 target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i>&nbsp; Linkedin</a></li>
 
-                                <li><a className="text-decoration-none text-white" 
+                                <li><a className="texto text-decoration-none" 
                                 href="https://github.com/Rommelpalma123?tab=repositories" 
                                 target="_blank" rel="noreferrer">
                                 <i className="fab fa-github"></i>&nbsp; Github</a></li>
