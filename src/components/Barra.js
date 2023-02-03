@@ -15,7 +15,7 @@ const  Barra = () =>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
                 <li className="nav-item">
-                    <Link className="nav-link text-light fs-5" aria-current="page" to="/">Inicio</Link>
+                    <Link className="nav-link text-light fs-5" aria-current="page" to="/client">Inicio</Link>
                   </li>
                   <li class="nav-item">
                     <Link className="nav-link text-light fs-5" to="/about">Sobre mi</Link>
