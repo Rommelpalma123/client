@@ -27,8 +27,7 @@
     list-style: none;
 }
 
-.borde:hover
+.borde
 {
-    border-top: 6px solid rgb(255, 0, 0);
+    border-top: red 2px solid;
 }
-
