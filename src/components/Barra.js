@@ -10,7 +10,7 @@ const Barra = () => {
       >
         <div className="container-fluid">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler border-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -31,12 +31,12 @@ const Barra = () => {
                   Inicio
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link text-light fs-5" to="/about">
-                  Sobre mi
+                  Habilidades
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link text-light fs-5" to="/contacto">
                   Contacto
                 </Link>

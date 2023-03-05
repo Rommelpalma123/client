@@ -1,8 +1,8 @@
 import imagen from "./imgs/logo1922.png";
 import "../css/footer.css";
+import Whatsapp from "../Whatsapp";
 
-function Informacion() 
-{
+function Informacion() {
   return (
     <div>
       <div className="container overflow-hidden mt-5">
@@ -14,16 +14,15 @@ function Informacion()
               alt="imagen de perfil"
             />
           </div>
-          <div className="col mt-5">
-            <h3>
+          <div className="col mt-2">
+            <h3 className="text-center">
               <b>Hola a todos soy Rommel Palma</b>
             </h3>
-            <p>
+            <p className="info">
               Soy desarrollador de software desde hace un año, con conocimientos
               en diferentes tecnologias tanto web como para dispositivos moviles
             </p>
-            <br />
-            <p className="text-left fs-6">
+            <p className="fs-6 info">
               Soy de nacionalidad ecuatoriana, estudie en la universidad Laica
               Eloy Alforo de Manabí,{" "}
               <b>Ingeniería en Tecnologias de la Informacion</b>, donde aprendi
@@ -32,6 +31,11 @@ function Informacion()
               tecnologias y de mas conocimientos
             </p>
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="">
+          <Whatsapp />
         </div>
       </div>
     </div>
