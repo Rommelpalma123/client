@@ -26,7 +26,7 @@ const Barra = () => {
                 <Link
                   className="nav-link text-light fs-5"
                   aria-current="page"
-                  to="/client"
+                  to=""
                 >
                   Inicio
                 </Link>
